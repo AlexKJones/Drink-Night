@@ -1,5 +1,5 @@
-Heroku link: https://dashboard.heroku.com/apps/aqueous-brushlands-73679
-Github Pages:  http://alexkjones.github.io/
+Heroku link: https://aqueous-brushlands-73679.herokuapp.com
+Github Pages:  https://alexkjones.github.io/Drink-Night-Client/
 
 Front End Repo: https://github.com/AlexKJones/Drink-Night-Client
 
