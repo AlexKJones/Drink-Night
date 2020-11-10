@@ -1,5 +1,7 @@
 const mongoose = require('mongoose')
 
+const Drink = require('./drink')
+
 const eventSchema = new mongoose.Schema({
   name: {
     type: String,
@@ -9,6 +11,7 @@ const eventSchema = new mongoose.Schema({
     type: Date,
     required: true
   },
+  drinks: { type: mongoose.Schema.Types.Object, ref: 'Drink' },
   owner: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',

@@ -9,9 +9,8 @@ curl "${API}${URL_PATH}" \
   --header "Content-Type: application/json" \
   --header "Authorization: Bearer ${TOKEN}" \
   --data '{
-    "drink": {
-      "name": "'"${NAME}"'",
-      "date": "'"${DATE}"'"
+    "drinks": {
+      "name": "'"${NAME}"'"
     }
   }'
 
